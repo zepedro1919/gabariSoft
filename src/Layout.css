@@ -1,0 +1,23 @@
+.layout-container {
+    display: flex; /* Organiza as zonas lado a lado */
+    gap: 20px; /* Espaço entre as zonas */
+    padding: 20px;
+  }
+
+  .zone-group {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 divisórias por linha */
+    gap: 10px; /* Espaço entre as divisórias */
+  }
+  
+  .zona {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+    font-weight: bold;
+    color: white;
+  }
+  
